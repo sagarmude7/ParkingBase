@@ -1,10 +1,41 @@
-# ParkingBase
+# 📍Parking Base🚗
+A website made using leaflet.js, postgis and postgresql to help find people parking locations in Mumbai Area
 
-## Description
+## Project Demo
+![Demo gif](https://github.com/vdmondkr2002/Parking_Helper/blob/main/parking-helpers-demo.gif?raw=true)
 
-A Platform to find nearby parking slots according to user's location
+## Features
+* Provides a map of Mumbai area with marking on the parking locations got from dataset.
+* User can check the nearest parking lots to location through toggle switch.
+* A table which has addresses of each location nearest to the area selected.
 
-## Tech Stack
+### Site is live on - https://parking-helpers.herokuapp.com/
 
-MERN
+## 🛠 Tech Stack 
+* **LeafletJS** for web mapping
+* **PUG** as template engine
+* **CSS** for styling
+* **PostGIS**
+* **PostgreSQL**
+* **Node JS**
+* **Express JS**
 
+
+## Local installation-
+1. Clone the repository:
+  ```
+  $ git clone https://github.com/sagarmude7/ParkingBase
+  ```
+2. Install the necessary dependencies-
+  ```
+  $ cd Parkingbase
+  $ npm install
+  ```
+3. Setting environment variables-
+  * Create a .env file and copy paste contents from .env.example file.
+  * Create a postgresql database and table as guided and import the .csv file provided into database 
+  * Edit the values of environment variables as directed.
+5. Run the server-
+  ```
+  $ npm start
+  ```
